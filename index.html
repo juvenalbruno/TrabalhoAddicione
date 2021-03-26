@@ -1,0 +1,103 @@
+<html lang="en">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap" rel="stylesheet">
+
+<body>
+    <div class="banner">
+        <div class="textGti">
+            <h4 class="class1">CONTROLE, GERENCIE E</h4>
+            <h4 class="class2">ADMINISTRE O</h4>
+            <h4 class="class3">CONSUMO DE ÁGUA COM</h4>
+            <h4 class="class4">APENAS UM CLIQUE.</h4>
+        </div>
+        <div class="logoGti">
+            <img class="logoGti" src="./assets/gtiLogo.png" alt="Logo_GTI">
+        </div>
+    </div>
+</body>
+
+<style type="text/css">
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .banner {
+        width: 970px;
+        height: 250px;
+        margin-top: 25px;
+        margin: 10px auto;
+        background-image: url('./assets/gtiRetangulo.jpg');
+        display: flex;
+    }
+    
+    .textGti {
+        width: 60%;
+        font-family: 'Lato', sans-serif;
+        display: flex;
+        flex-direction: column;
+        line-height: 1.2;
+        /* align-items: center; */
+        margin: auto 0 auto 80px;
+    }
+    
+    .textGti h4 {
+        font-size: 32px;
+        font-weight: bold;
+        color: white;
+        width: 400px;
+    }
+    
+    .textGti .class1 {
+        animation: text .4s;
+    }
+    
+    .textGti .class2 {
+        animation: text .5s;
+    }
+    
+    .textGti .class3 {
+        animation: text .6s;
+    }
+    
+    .textGti .class4 {
+        color: #36579e;
+        background-color: #7bff00;
+        width: 295px;
+        padding: 0 20px;
+        animation: text .8s;
+    }
+    
+    .logoGti {
+        width: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    
+    .logoGti img {
+        width: 190px;
+        margin: 0 50px 50px 0;
+        animation: logo .9s;
+    }
+    
+    @keyframes logo {
+        0% {
+            transform: translateX(100px);
+        }
+    }
+    
+    @keyframes text {
+        0% {
+            transform: translateX(-100px);
+        }
+    }
+    
+    @keyframes final {
+        0% {
+            transform:
+        }
+    }
+</style>
+
+</html>
