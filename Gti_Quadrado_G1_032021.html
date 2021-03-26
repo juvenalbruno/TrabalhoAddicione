@@ -13,9 +13,97 @@
             </a>
         </div>
         <div class="logoGti">
-            <img class="logoGti" src="https://github.com/juvenalbruno/TrabalhoAddicione/blob/master/assets/gtiLogo.png?raw=true" alt="Logo_GTI">
+            <a href="https://www.gti-g.com/">
+                <img class="logoGti" src="https://raw.githubusercontent.com/juvenalbruno/TrabalhoAddicione/master/assets/gtiLogo.png" alt="Logo_GTI">
+            </a>
         </div>
     </div>
 </body>
+<style type="text/css">
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .banner {
+        width: 300px;
+        height: 250px;
+        margin-top: 25px;
+        margin: 10px auto;
+        background-image: url('https://raw.githubusercontent.com/juvenalbruno/TrabalhoAddicione/master/assets/gtiQuadrado.jpg');
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .textGti {
+        font-family: 'Lato', sans-serif;
+        display: flex;
+        flex-direction: column;
+        line-height: 1.2;
+        margin: auto 20px;
+    }
+    
+    .textGti h4 {
+        max-width: 80%;
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .textGti .class1 {
+        animation: text .5s;
+    }
+    
+    .textGti .class2 {
+        animation: text .8s;
+    }
+    
+    .textGti .class3 {
+        animation: text 1s;
+    }
+    
+    .textGti .class4 {
+        color: #36579e;
+        background-color: #7bff00;
+        animation: text 1.2s;
+        text-align: center;
+    }
+    
+    .logoGti {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .logoGti img {
+        width: 120px;
+        margin-bottom: 25px;
+        animation: logo 1s;
+    }
+    
+    @keyframes logo {
+        0% {
+            transform: translateX(75px);
+            display: none;
+        }
+    }
+    
+    @keyframes text {
+        0% {
+            color: transparent;
+            transform: translateX(-100px);
+            background: none;
+        }
+        30% {
+            color: transparent;
+        }
+        40% {
+            background: none;
+        }
+    }
+</style>
 
 </html>
